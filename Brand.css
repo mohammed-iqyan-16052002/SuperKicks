@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+  box-sizing: border-box;
+}
+.container-fluid .navbar-brand {
+    font-size: 30px;
+    font-weight: bold;
+}
+.container-flui .btn{
+    color: black;
+}
+.container-fluid img{
+    height: 5vh;
+
+}
+.navbar ul li a{
+    color: black;
+   
+}
+.navbar ul li a:hover{
+transition: .4s ease-in-out;
+    font-weight: bold;
+}
+.card-group{
+    gap: 15px;
+    padding: 10px 10px;
+
+}
+.con{
+    padding: 10px 0px;
+}
+
+marquee {
+    background-image: linear-gradient(to right bottom, #beb6be, #8c878d, #5d5b5f, #323234, #0a0a0a);
+    color: #fff; 
+    padding: 10px;
+    white-space: nowrap; 
+    overflow: hidden; 
+    box-sizing: border-box; 
+  }
+  
+footer{
+    padding: 0px 15px;
+    background: #000;
+    color: white;
+    margin-top: 3%;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+    
+}
+footer a:hover{
+    color: #949090;
+    transition: .4s;
+}
+footer a i {
+    font-size: 25px;
+    margin-right: 15px;
+
+}
+footer .card-img-top{
+    width: 50%;
+}
+.brands{
+    overflow: hidden;
+}
+a img{
+    transition: all .7s ease;
+}
+.brands  img:hover{
+    scale: 1.1;
+    filter: invert(10%);
+    
+}
+.fa-solid:hover {
+    scale: 110% ; 
+     
+ }
+ ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #000; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }

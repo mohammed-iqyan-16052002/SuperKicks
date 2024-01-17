@@ -1,0 +1,441 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="Caps.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Caps</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+  <!-- Nav section -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+    <div class="container-fluid">
+      <a class="nav-link active" aria-current="page" href="Home.html">
+
+        <img src="images/logo.webp" class="card-img-top" alt="...">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Footwear
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="shopall.html">Shop All</a>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="Sneaker.html">Sneakers</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="Slide.html">Slides and Sandals</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Accessories
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="Caps.html">Caps</a>
+                <hr class="dropdown-divider">
+              </li>
+              <li>
+              </li>
+              <li><a class="dropdown-item" href="Care.html">Sneaker Care</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="Brand.html">Brand</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="Release.html"> New Release</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="Store.html"> Store</a>
+          </li>
+        </ul>
+        <div class="cart">
+          <span class="count"></span>
+          <!--   <span class="count">1</span> -->
+          <i class=" fa-solid fa-cart-shopping mb-1 w me-4 w-100"></i>
+        </div>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-dark" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- dropdown -->
+  <div class="container-xxl contain">
+    <h1 class="card-title">Caps</h1>
+    <!-- btn1 -->
+    <div class="btn-group btnn">
+      <button class="btn btn-outline-dark btn-lg dropdown-toggle" type="button" data-bs-toggle="dropdown"
+        aria-expanded="false">
+        Brand
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Adidas</a></li>
+        <li>
+          <hr class="dropdown-divider">
+        </li>
+        <li><a class="dropdown-item" href="#">Nike</a></li>
+        <li>
+          <hr class="dropdown-divider">
+        </li>
+        <li><a class="dropdown-item" href="#">Jordan</a></li>
+        <li>
+          <hr class="dropdown-divider">
+        </li>
+        <li><a class="dropdown-item" href="#">Puma</a></li>
+        <li>
+          <hr class="dropdown-divider">
+        </li>
+        <li><a class="dropdown-item" href="#">Reebok</a></li>
+        <li>
+          <hr class="dropdown-divider">
+        </li>
+        <li><a class="dropdown-item" href="#">Crocs</a></li>
+        <li>
+          <hr class="dropdown-divider">
+        </li>
+        <li><a class="dropdown-item" href="#">Asics</a></li>
+      </ul>
+    </div>
+    <!-- btn2 -->
+    <div class="btn-group btnn">
+      <button class="btn btn-outline-dark btn-lg dropdown-toggle" type="button" data-bs-toggle="dropdown"
+        aria-expanded="false">
+        Gender
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Men</a></li>
+        <li>
+          <hr class="dropdown-divider">
+        </li>
+        <li><a class="dropdown-item" href="#">Women</a></li>
+
+      </ul>
+    </div>
+    <!-- btn3 -->
+    <div class="btn-group btnn">
+      <button class="btn btn-outline-dark btn-lg dropdown-toggle" type="button" data-bs-toggle="dropdown"
+        aria-expanded="false">
+        Price
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item " href="#">₹ 1000-1500</a></li>
+        <li>
+          <hr class="dropdown-divider">
+        </li>
+        <li><a class="dropdown-item" href="#">₹ 2000-3000</a></li>
+        <li>
+          <hr class="dropdown-divider">
+        </li>
+        <li><a class="dropdown-item" href="#">₹ 3000-5000</a></li>
+        <li>
+          <hr class="dropdown-divider">
+        </li>
+        <li><a class="dropdown-item" href="#">₹ 5000-7000</a></li>
+
+      </ul>
+
+    </div>
+    <!-- btn4 -->
+    <div class="btn-group btnn">
+      <button class="btn btn-outline-dark btn-lg dropdown-toggle" type="button" data-bs-toggle="dropdown"
+        aria-expanded="false">
+        Product Type
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Basketball Sneakers</a></li>
+        <li>
+          <hr class="dropdown-divider">
+        </li>
+        <li><a class="dropdown-item" href="#">Classic Sneakers</a></li>
+        <li>
+          <hr class="dropdown-divider">
+        </li>
+        <li><a class="dropdown-item" href="#">Slides & Sandles</a></li>
+        <li>
+          <hr class="dropdown-divider">
+        </li>
+        <li><a class="dropdown-item" href="#">Skateboard Sneakers</a></li>
+      </ul>
+    </div>
+  </div>
+  <!-- bropdown2 -->
+  <div class="container-xxl contain">
+    <div class="btn-group btnn">
+      <button class="btn btn-outline-dark btn-lg dropdown-toggle" type="button" data-bs-toggle="dropdown"
+        aria-expanded="false">
+        Availability
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">In Stock</a></li>
+        <li>
+          <hr class="dropdown-divider">
+        </li>
+        <li><a class="dropdown-item" href="#">Out of Stock</a></li>
+
+      </ul>
+    </div>
+    <p class="card-text-center">Now Shopping by: <button type="button" class="btn btn-outline-dark">In Stock x</button>
+    </p>
+  </div>
+  <!-- card1 -->
+  <div class="card-group">
+
+    <div class="card">
+
+      <img src="images/caps1.webp" class="card-img-top" alt="...">
+
+      <div class="card-body">
+        <h5 class="card-title">Icecream</h5>
+        <p class="card-text">ALL THE WAY SNAPBACK HAT...</p>
+        <p class="card-text"> <a class="nav-link active" aria-current="page" href="payment.html">
+
+            <button type="button" class="btn btn-dark">₹ 6,399.00</button>
+          </a><small class="text-body-secondary"></small></p>
+      </div>
+
+    </div>
+    <div class="card">
+
+
+      <img src="images/caps2.webp" class="card-img-top" alt="...">
+
+      <div class="card-body">
+        <h5 class="card-title">SuperKicks</h5>
+        <p class="card-text">SPLATTER CAP 'BLACK/MUTI</p>
+        <p class="card-text"> <a class="nav-link active" aria-current="page" href="payment.html">
+
+            <button type="button" class="btn btn-dark">₹ 1,895.00</button>
+          </a><small class="text-body-secondary"></small></p>
+      </div>
+    </div>
+    <div class="card">
+
+
+      <img src="images/caps4.webp" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">SuperKicks</h5>
+        <p class="card-text">DIGI CAMO CAP 'OLIVE GREEN'</p>
+        <p class="card-text"> <a class="nav-link active" aria-current="page" href="payment.html">
+
+            <button type="button" class="btn btn-dark">₹ 1,895.00</button>
+          </a><small class="text-body-secondary"></small></p>
+      </div>
+
+    </div>
+    <div class="card">
+
+      <img src="images/caps3.webp" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">SuperKicks</h5>
+        <p class="card-text">CHECKERBOARD CAP 'BEIGE' </p>
+        <p class="card-text"> <a class="nav-link active" aria-current="page" href="payment.html">
+
+            <button type="button" class="btn btn-dark">₹ 1,595.00</button>
+          </a><small class="text-body-secondary"></small></p>
+      </div>
+    </div>
+
+  </div>
+  <!-- card2 -->
+  <div class="card-group">
+
+    <div class="card">
+
+      <img src="images/hat1.webp" class="card-img-top" alt="...">
+
+      <div class="card-body">
+        <h5 class="card-title">Huf</h5>
+        <p class="card-text">
+          WATSON TWEED BUCKET...</p>
+        <p class="card-text"> <a class="nav-link active" aria-current="page" href="payment.html">
+
+            <button type="button" class="btn btn-dark">₹ 1,196.00</button>
+          </a><small class="text-body-secondary"></small></p>
+      </div>
+
+    </div>
+    <div class="card">
+
+
+      <img src="images/hat2.webp" class="card-img-top" alt="...">
+
+      <div class="card-body">
+        <h5 class="card-title">Nike</h5>
+        <p class="card-text">FUTURA WASHED BUCKET HAT...</p>
+        <p class="card-text"> <a class="nav-link active" aria-current="page" href="payment.html">
+
+            <button type="button" class="btn btn-dark">₹ 7,221.00</button>
+          </a><small class="text-body-secondary"></small></p>
+      </div>
+    </div>
+    <div class="card">
+
+
+      <img src="images/cap5.webp" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">New Era</h5>
+        <p class="card-text">CHICAGO WHITE SOX KOI FISH...</p>
+        <p class="card-text"> <a class="nav-link active" aria-current="page" href="payment.html">
+
+            <button type="button" class="btn btn-dark">₹ 3,999.00</button>
+          </a><small class="text-body-secondary"></small></p>
+      </div>
+
+    </div>
+    <div class="card">
+
+      <img src="images/cap6.webp" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">New Era</h5>
+        <p class="card-text">NEW YORK YANKEES WHITE ...</p>
+        <p class="card-text"> <a class="nav-link active" aria-current="page" href="payment.html">
+
+            <button type="button" class="btn btn-dark">₹ 3,999.00</button>
+          </a><small class="text-body-secondary"></small></p>
+      </div>
+    </div>
+
+  </div>
+ <!-- card3 -->
+ <div class="card-group">
+
+  <div class="card">
+
+    <img src="images/cap5.jpg" class="card-img-top" alt="...">
+
+    <div class="card-body">
+      <h5 class="card-title">Adidas Original</h5>
+      <p class="card-text">ADICOLOR CLASSIC STO...</p>
+      <p class="card-text"> <a class="nav-link active" aria-current="page" href="payment.html">
+
+          <button type="button" class="btn btn-dark">₹ 1,199.00</button>
+        </a><small class="text-body-secondary"></small></p>
+    </div>
+
+  </div>
+  <div class="card">
+
+
+    <img src="images/caps5.webp" class="card-img-top" alt="...">
+
+    <div class="card-body">
+      <h5 class="card-title">Jordan</h5>
+      <p class="card-text">JUMPMAN PRO ADJUSTABLE CAP</p>
+      <p class="card-text"> <a class="nav-link active" aria-current="page" href="payment.html">
+
+          <button type="button" class="btn btn-dark">₹ 1,695.00</button>
+        </a><small class="text-body-secondary"></small></p>
+    </div>
+  </div>
+  <div class="card">
+
+
+    <img src="images/caps6.webp" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Jordan/h5>
+      <p class="card-text">JUMPMAN HAT 'BLACK'</p>
+      <p class="card-text"> <a class="nav-link active" aria-current="page" href="payment.html">
+
+          <button type="button" class="btn btn-dark">₹ 1,595.00</button>
+        </a><small class="text-body-secondary"></small></p>
+    </div>
+
+  </div>
+  <div class="card">
+
+    <img src="images/caps7.webp" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Nike</h5>
+      <p class="card-text">CLUB 'PINK'</p>
+      <p class="card-text"> <a class="nav-link active" aria-current="page" href="payment.html">
+
+          <button type="button" class="btn btn-dark">₹ 1,295.00</button>
+        </a><small class="text-body-secondary"></small></p>
+    </div>
+  </div>
+
+</div>
+  <!-- footer section -->
+  <footer class="py-5">
+    <div class="row">
+      <div class="col-6 col-md-2 mb-3">
+        <h4>INFO</h4>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav- p-0 text-body-">Contact Us</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav- p-0 text-body-">Release</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav- p-0 text-body-">Stores</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav- p-0 text-body-">Brands</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav- p-0 text-body-">Blog</a></li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-md-2 mb-3">
+        <h4>POLICIES</h4>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav- p-0 text-body-">Help Center</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav- p-0 text-body-">Privacy Policy</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav- p-0 text-body-">Return & Exchange</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav- p-0 text-body-">Terms & Condition</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav- p-0 text-body-">Orders & Shipping</a></li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-md-2 mb-3">
+        <h4>Our Socials</h4>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2">
+            <a href="#" class="nav- p-0 text-body-"><i class="fa-brands fa-square-facebook"></i></a>
+            <a href="#" class="nav- p-0 text-body-"><i class="fa-brands fa-instagram"></i></a>
+          </li>
+
+        </ul>
+      </div>
+
+      <div class="col-md-5 offset-md-1 mb-3">
+        <form>
+          <h5>Subscribe to our newsletter</h5>
+          <p>Monthly digest of what's new and exciting from us.</p>
+          <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+            <label for="newsletter1" class="visually-hidden">Email address</label>
+            <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+            <button class="btn btn-dark" type="button">Subscribe</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="d-flex flex-column flex-sm-column  justify-content-between 
+  py-4 my-4 border-top ">
+      <p>© 2023 SuperKicks, Inc. All rights reserved.</p>
+      <img src="images/visa.png" class="card-img-top" alt="...">
+
+    </div>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

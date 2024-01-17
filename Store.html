@@ -1,0 +1,383 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="Store.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Our Stores</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+  <!-- Nav section -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+    <div class="container-fluid">
+       <a class="nav-link active" aria-current="page" href="Home.html">
+
+         <img src="images/logo.webp" class="card-img-top" alt="...">
+       </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Footwear
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="shopall.html">Shop All</a>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="Sneaker.html">Sneakers</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="Slide.html">Slides and Sandals</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Accessories
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="Caps.html">Caps</a>
+                <hr class="dropdown-divider">
+              </li>
+              <li>
+              </li>
+              <li><a class="dropdown-item" href="Care.html">Sneaker Care</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="Brand.html">Brand</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="Release.html"> New Release</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="Store.html"> Store</a>
+          </li>
+        </ul>
+        <div class="cart">
+            <span class="count"></span>
+            <!--   <span class="count">1</span> -->
+            <i class=" fa-solid fa-cart-shopping mb-1 w me-4 w-100"></i>      
+            </div>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-dark" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- head -->
+  <div class="container-xl contain">
+    <h1 class="card-title">Our Stores</h1>
+  </div>
+  <!-- grid1 -->
+  <div class="container-xl cont">
+
+    <div class="container text-center">
+      <div class="row row-cols-auto">
+        <div class="col mum">Mumbai</div>
+        <div class="col">Hyderabad</div>
+        <div class="col"> New Delhi</div>
+        <div class="col">Bangalore</div>
+      </div>
+    </div>
+  </div>
+  <!-- caraosal1 -->
+  <div class="container-xl">
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/mum.webp" class="d-block w-100" alt="...">
+
+        </div>
+        <div class="carousel-item">
+          <img src="images/mum2.webp" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="images/mum3.webp" class="d-block w-100" alt="...">
+
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  <!-- card1 -->
+  <div class="container-xl">
+    <div class="card mb-3" style="border: none;">
+      <div class="row g-0">
+
+        <div class="col-md-8">
+          <div class="card-body ">
+
+            <p class="card-text  " style="width: 80%; font-size: 18px;">Ground Floor, Yashwant Smruti Building, 12th
+              Road, Khar West, Off-Linking Road, Near Madhu Park, Mumbai-400052</p>
+
+            <p class="card-text para" ><i class="fa-solid fa-phone"></i> Phone: <small class="text-body"
+               >+91 8097811422</small></p>
+            <p class="card-text para" ><i class="fa-solid fa-envelope"></i> Email: <small class="text-body"
+               >iqyanmohammed@gmail.com</small></p>
+            <p class="card-text para" ><i class="fa-solid fa-clock"></i> Opening hours: <small
+                class="text-body">  10:00 AM – 10:00 PM Open all
+                day</small></p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.825026167673!2d72.83472139999999!3d19.0714292!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c90e6faafffd%3A0x816244f7e39b484d!2sSuperkicks%20Mumbai!5e0!3m2!1sen!2sin!4v1705069308829!5m2!1sen!2sin"  height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+
+  </div>
+ <!-- caraosal2 -->
+ <div class="container-xl">
+  <div id="carouselExampleFade" class="carousel slide carousel-fade">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/del1.webp" class="d-block w-100" alt="">
+      </div>
+      <div class="carousel-item">
+        <img src="images/del2.webp" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="images/del3.webp" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+<!-- card2 -->
+<div class="container-xl">
+  <div class="card mb-3" style="border: none;">
+    <div class="row g-0">
+
+      <div class="col-md-8">
+        <div class="card-body ">
+
+          <p class="card-text  " style="width: 80%; font-size: 18px;">39, Ground & Basement, Munika Marg, Vasant Vihar, New Delhi 110057</p>
+
+          <p class="card-text para" ><i class="fa-solid fa-phone"></i> Phone: <small class="text-body"
+             >+91 99873 93520</small></p>
+          <p class="card-text para" ><i class="fa-solid fa-envelope"></i>  Email: <small class="text-body"
+             >iqyanmohammed@gmail.com</small></p>
+          <p class="card-text para" ><i class="fa-solid fa-clock"></i> Opening hours: <small
+              class="text-body">  11:00 AM – 8:00 PM Open all
+              day</small></p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3504.4101626824595!2d77.1643484!3d28.5574437!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce13c121f9d31%3A0x6ba0267c5a3cc929!2sSuperkicks%20Delhi!5e0!3m2!1sen!2sin!4v1705069184868!5m2!1sen!2sin" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
+
+          
+      </div>
+    </div>
+  </div>
+
+</div>
+ <!-- caraosal3 -->
+ <div class="container-xl">
+  <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/hy1.webp" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="images/hy2.webp" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="images/hy3.webp" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+<!-- card3 -->
+<div class="container-xl">
+  <div class="card mb-3" style="border: none;">
+    <div class="row g-0">
+
+      <div class="col-md-8">
+        <div class="card-body ">
+
+          <p class="card-text  " style="width: 80%; font-size: 18px;">8-2-589/3, Road, No. 8, Banjara Hills, Hyderabad, Telangana, 500034.</p>
+
+          <p class="card-text para" ><i class="fa-solid fa-phone"></i> Phone: <small class="text-body"
+             >+91 99873 63520</small></p>
+          <p class="card-text para" ><i class="fa-solid fa-envelope"></i> Email: <small class="text-body"
+             >iqyanmohammed@gmail.com</small></p>
+          <p class="card-text para" ><i class="fa-solid fa-clock"></i> Opening hours: <small
+              class="text-body">  11:00 AM – 8:00 PM Open all
+              day</small></p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.8921888470823!2d78.4466879!3d17.416960799999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb91da07a7de11%3A0xd921e897a94272d6!2sSuperkicks!5e0!3m2!1sen!2sin!4v1705072235510!5m2!1sen!2sin" width="600" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
+
+          
+      </div>
+    </div>
+  </div>
+
+</div>
+ <!-- caraosal4 -->
+ <div class="container-xl">
+  <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/ban1.webp" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="images/ban2.webp" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="images/ban3.webp" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+<!-- card4 -->
+<div class="container-xl">
+  <div class="card mb-3" style="border: none;">
+    <div class="row g-0">
+
+      <div class="col-md-8">
+        <div class="card-body ">
+
+          <p class="card-text  " style="width: 80%; font-size: 18px;">No. 1079, Ground Floor, 12th Main Rd, HAL 2nd Stage, Appareddipalya, Indiranagar, Bengaluru, Karnataka 560038</p>
+
+          <p class="card-text para" ><i class="fa-solid fa-phone"></i> Phone: <small class="text-body"
+             >+91 99878 43520</small></p>
+          <p class="card-text para" > <i class="fa-solid fa-envelope"></i> Email: <small class="text-body"
+             >iqyanmohammed@gmail.com</small></p>
+          <p class="card-text para" > <i class="fa-solid fa-clock"></i> Opening hours: <small
+              class="text-body">  11:00 AM – 9:00 PM Open all
+              day</small></p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.8921888470823!2d78.4466879!3d17.416960799999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb91da07a7de11%3A0xd921e897a94272d6!2sSuperkicks!5e0!3m2!1sen!2sin!4v1705072235510!5m2!1sen!2sin" width="600" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
+
+          
+      </div>
+    </div>
+  </div>
+
+</div>
+  <!-- footer section -->
+  <footer class="py-5">
+    <div class="row">
+      <div class="col-6 col-md-2 mb-3">
+        <h4>INFO</h4>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav- p-0 text-body-">Contact Us</a></li>
+          <li class="nav-item mb-2"><a href="Release.html" class="nav- p-0 text-body-">Release</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav- p-0 text-body-">Stores</a></li>
+          <li class="nav-item mb-2"><a href="Brand.html" class="nav- p-0 text-body-">Brands</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav- p-0 text-body-">Blog</a></li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-md-2 mb-3">
+        <h4>POLICIES</h4>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav- p-0 text-body-">Help Center</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav- p-0 text-body-">Privacy Policy</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav- p-0 text-body-">Return & Exchange</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav- p-0 text-body-">Terms & Condition</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav- p-0 text-body-">Orders & Shipping</a></li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-md-2 mb-3">
+        <h4>Our Socials</h4>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2">
+            <a href="#" class="nav- p-0 text-body-"><i class="fa-brands fa-square-facebook"></i></a>
+            <a href="#" class="nav- p-0 text-body-"><i class="fa-brands fa-instagram"></i></a>
+          </li>
+
+        </ul>
+      </div>
+
+      <div class="col-md-5 offset-md-1 mb-3">
+        <form>
+          <h5>Subscribe to our newsletter</h5>
+          <p>Monthly digest of what's new and exciting from us.</p>
+          <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+            <label for="newsletter1" class="visually-hidden">Email address</label>
+            <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+            <button class="btn btn-dark" type="button">Subscribe</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="d-flex flex-column flex-sm-column  justify-content-between 
+  py-4 my-4 border-top ">
+      <p>© 2023 SuperKicks, Inc. All rights reserved.</p>
+      <img src="images/visa.png" class="card-img-top" alt="...">
+
+    </div>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

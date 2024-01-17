@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-fluid .navbar-brand {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.container-flui .btn {
+    color: black;
+}
+
+.container-fluid img {
+    height: 5vh;
+
+}
+
+.navbar ul li a {
+    color: black;
+
+}
+
+.navbar ul li a:hover {
+    transition: .4s ease-in-out;
+    font-weight: bold;
+}
+.cont h1{
+    padding-left: 5px;
+    padding-top: 10px;
+   
+}
+
+.card-group {
+    margin-top: 2%;
+    padding: 0px 20px;
+    gap: 1rem;
+
+}
+
+.card-group .card h5 {
+    color: rgb(152, 149, 149);
+    font-size: 15px;
+}
+
+.card-group .card .card-text {
+    font-weight: bold;
+}
+
+.card-group .card .card-text button {
+    background: transparent;
+    color: black;
+    font-weight: bold;
+}
+
+.card-group .card .card-text button:hover {
+    background-color: #000;
+    color: white;
+    transition: all .4s ease-in-out;
+}
+
+.contain .card h5 {
+    color: rgb(152, 149, 149);
+    font-size: 15px;
+}
+
+.contain .card .card-text {
+    font-weight: bold;
+}
+
+.contain .card .card-text button {
+    background: transparent;
+    color: black;
+    font-weight: bold;
+}
+
+.contain .card .card-text button:hover {
+    background-color: #000;
+    color: white;
+    transition: all .4s ease-in-out;
+}
+.contain{
+
+ margin-top: 2%;
+}
+marquee {
+    background-image: linear-gradient(to right bottom, #beb6be, #8c878d, #5d5b5f, #323234, #0a0a0a);
+    color: #fff; 
+    padding: 10px;
+    white-space: nowrap; 
+    overflow: hidden; 
+    box-sizing: border-box; 
+  }
+  
+footer {
+    padding: 0px 15px;
+    background: #000;
+    color: white;
+    margin-top: 3%;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+
+}
+
+footer a:hover{
+    color: #949090;
+    transition: .4s;
+}
+footer a i {
+    font-size: 25px;
+    margin-right: 15px;
+
+}
+
+footer .card-img-top {
+    width: 50%;
+}
+.fa-solid:hover {
+    scale: 110% ; 
+     
+ }
+ ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #000; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+ @media(max-width:900px) {
+    
+
+    footer .card-img-top {
+        width: 55%;
+    }
+}
+
+
+@media(max-width:750px) {
+    
+}
+
+@media(max-width:700px) {
+    
+
+    .card-group .card .card-text {
+        font-weight: bold;
+        font-size: 12px;
+    }
+
+    .card-group .card .card-text button {
+        background: transparent;
+        color: black;
+        font-size: 11px;
+        font-weight: bold;
+    }
+}
+
+@media(max-width:650px) {
+    
+
+    .card-group .card .card-text {
+        font-weight: bold;
+        font-size: 10px;
+    }
+
+    .card-group .card .card-text button {
+        background: transparent;
+        color: black;
+        font-size: 11px;
+        font-weight: bold;
+    }
+}
+
+@media(max-width:600px) {
+  
+
+    .card-group .card .card-text {
+        font-weight: bold;
+        font-size: 10px;
+    }
+
+    .card-group .card .card-text button {
+        background: transparent;
+        color: black;
+        font-size: 11px;
+        font-weight: bold;
+    }
+}
+
+@media(max-width:550px){
+    .card-group .card h5 {
+        color: rgb(152, 149, 149);
+        font-size: 16px;
+    }
+    .card-group .card .card-text {
+        font-weight: bold;
+        font-size: 16px;
+    }
+    .card-group .card .card-text button {
+        background: transparent;
+        color: black;
+        font-size: 16px;
+        font-weight: bold;
+    }
+}
+@media(max-width:400px) {
+
+    footer .card-img-top {
+        width: auto;
+    }
+}
+@media(max-width:350px){
+    .container-md a {
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .card-group .card .card-text {
+        font-weight: bold;
+        font-size: 16px;
+    }
+    .card-group .card .card-text button {
+        background: transparent;
+        color: black;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .img .card-text {
+        font-weight: bold;
+        margin-top: 2%;
+        font-size: 11px;
+        text-align: start;
+    }
+    .container-xxl .col .img button {
+        background: transparent;
+        color: black;
+        font-size: 11px;
+        margin-bottom: 7%;
+        font-weight: bold;
+    }
+    footer .card-img-top {
+        width: auto;
+    }
+}
